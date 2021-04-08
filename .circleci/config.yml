@@ -9,8 +9,8 @@ jobs:
           - "70:44:94:68:e2:53:3e:6a:4f:51:f1:16:a5:e5:d3:24"
       - checkout
       - run: 
-        name: Install
-        command: yarn install
+          name: Install
+          command: yarn install
       - run:
-        name: Build
-        command: yarn build
+          name: Build
+          command: yarn build
