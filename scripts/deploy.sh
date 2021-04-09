@@ -7,5 +7,6 @@
 # abort the script if there is a non-zero error
 set -e
 pwd
+echo '哈哈哈'
 remote=$(git config remote.origin.url)
 echo 'remote is: '$remote
