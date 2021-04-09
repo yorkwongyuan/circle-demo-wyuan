@@ -22,3 +22,6 @@ jobs:
           # chmod +x 赋予执行权限
           # 执行shell脚本
           command: chmod +x scripts/deploy.sh
+      - run:
+          name: Run deploy
+          command: ./scripts/deploy.sh
