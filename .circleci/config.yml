@@ -20,8 +20,8 @@ jobs:
       - run:
           name: Shell Pre
           # chmod +x 赋予执行权限
-          # 执行shell脚本
           command: chmod +x scripts/deploy.sh
       - run:
+          # 执行shell脚本
           name: Run deploy
           command: ./scripts/deploy.sh
