@@ -55,7 +55,7 @@ git add -A
 # 允许空白提交
 git commit --allow-empty -m "Deploy to Github pages [ci skip]"
 
-git push origin --quiet --force origin gh-pages
+git push origin --quiet --force origin main
 # 资源回收，删除临时分支和目录
 cd ..
 
