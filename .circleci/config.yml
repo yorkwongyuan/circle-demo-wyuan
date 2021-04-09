@@ -11,13 +11,13 @@ jobs:
           fingerprints:
             - "70:44:94:68:e2:53:3e:6a:4f:51:f1:16:a5:e5:d3:24"
       - checkout
-      - restore_cache: // 使用缓存
+      - restore_cache:
           keys:
             - dependences-york
       - run: 
           name: Install
           command: yarn install
-      - save_cache: // 保存缓存
+      - save_cache:
           paths: 
             - node_modules
           key: dependences-york
