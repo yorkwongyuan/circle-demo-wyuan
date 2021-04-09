@@ -17,3 +17,8 @@ jobs:
       - run:
           name: Build
           command: yarn build
+      - run:
+          name: Shell Pre
+          # chmod +x 赋予执行权限
+          # 执行shell脚本
+          command: chmod +x scripts/deploy.sh
