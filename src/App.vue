@@ -3,7 +3,13 @@
     这是一个什么网站啊
   </div>
 </template>
-
+<script>
+export default {
+  mounted () {
+    document.title = '大众'
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
