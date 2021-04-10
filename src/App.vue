@@ -1,11 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
-      this is york!
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    这是一个什么网站啊
   </div>
 </template>
 
